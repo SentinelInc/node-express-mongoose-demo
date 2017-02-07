@@ -4,3 +4,10 @@ config/env/env.json
 Makefile
 .DS_Store
 .env
+.gitignore
+.elasticbeanstalk/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
